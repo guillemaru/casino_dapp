@@ -27,7 +27,7 @@ async function flip(side) {
             alert("you won");
         }
         else {
-            alert("you lost :( try again malaka");
+            alert("you lost :( try again");
         }
     })
 }
