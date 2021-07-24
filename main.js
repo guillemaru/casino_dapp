@@ -1,5 +1,5 @@
-Moralis.initialize("vyadCP6fproZTRanB3C0NNQOdmf4wyUnSk8v3sar"); // Application id from moralis.io
-Moralis.serverURL = "https://9eas7bxogeyv.usemoralis.com:2053/server"; //Server url from moralis.io
+Moralis.initialize(""); // Application id from moralis.io
+Moralis.serverURL = ""; //Server url from moralis.io
 
 function addRowToTable(tableId, data) {
     let tableRow = document.createElement('tr');
@@ -43,7 +43,7 @@ async function login() {
 async function flip(side) {
     let amount = document.getElementById("amount").value; 
     window.web3 = await Moralis.Web3.enable();
-    let contractInstance = new web3.eth.Contract(window.abi,"0x5838d2C4Dc6CeBbc9521b643B4d80584E6bc71d6")
+    let contractInstance = new web3.eth.Contract(window.abi,"") //smart contract id
     contractInstance.methods.flip(side == "heads" ? 0 : 1).send({value: amount, from: ethereum.selectedAddress})
     .on('receipt',function(receipt){
         console.log(receipt);
