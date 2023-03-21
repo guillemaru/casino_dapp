@@ -1,0 +1,8 @@
+# OS files
+.DS_Store
+
+# Node.js
+truffle/node_modules/
+
+# Build files
+truffle/build/
