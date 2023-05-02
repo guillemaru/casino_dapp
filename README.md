@@ -3,7 +3,8 @@ Dapp to play heads and tails using ethereum
 
 This dapp comes from the tutorial that is in the Moralis Web3 YouTube channel:  
 https://www.youtube.com/watch?v=rd0TTLjQLy4  
-It uses Moralis infrastructure to handle the server side (Moralis workflow of this repo not working anymore unfortunately).  
+It uses Moralis infrastructure to handle the server side.
+Moralis workflow of this repo not working anymore unfortunately, as explained here: https://moralis.io/how-to-set-up-a-self-hosted-web3-server/   
 A user can enter the app, login with Metamask, and play heads or tails to double or lose.  
 
 Login with MetaMask:
